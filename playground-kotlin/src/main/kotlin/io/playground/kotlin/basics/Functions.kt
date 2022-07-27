@@ -1,4 +1,4 @@
-package io.playground.kotlin.functions
+package io.playground.kotlin.basics
 
 // 기본적인 함수 선언.
 // 두 개의 `Int` 매개변수와 `Int` 반환타입이 있는 함수.
@@ -23,8 +23,8 @@ fun omittedPrintSum(a: Int, b: Int) {
 
 fun main() {
     println("Hello World!")
-    println(sum(5,3))
-    println(inferredSum(10,3))
+    println(sum(5, 3))
+    println(inferredSum(10, 3))
     printSum(100, 500)
     omittedPrintSum(500, 500)
 }
